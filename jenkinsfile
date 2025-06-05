@@ -5,7 +5,7 @@ pipeline {
     environment {
         // Global configuration
         DOCKER_IMAGE_NAME = 'devops-demo-app'
-        DOCKER_REGISTRY = 'your-registry.example.com'
+        DOCKER_REGISTRY = 'nikhil092/cicd'
         GIT_CREDENTIALS_ID = 'git-credentials'
     }
     
